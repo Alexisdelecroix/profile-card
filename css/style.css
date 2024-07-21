@@ -1,0 +1,108 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans";
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(#f9fafb, #D2D6DB);
+}
+
+section .card {
+  width: 340px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px 15px;
+}
+
+section .card .container-img {
+  display: flex;
+  justify-content: center;
+}
+
+section .card .container-img img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+section .card .container-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+section .card .container-info #name {
+  font-size: 20px;
+  color: #171717;
+}
+
+section .card .container-info #job {
+  font-size: 14px;
+  color: #525252;
+}
+
+section .card .container-text p {
+  text-align: center;
+  font-size: 16px;
+  color: #525252;
+  margin-bottom: 30px;
+}
+
+section .card .container-btn button {
+  width: 100%;
+  height: 44px;
+  background-color: #4338CA;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+section .card .container-btn button:focus {
+  border: 2px solid #837dc3a9;
+}
+
+section .card .container-network {
+  padding-top: 30px;
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+section .card .container-network button {
+  background: none;
+  padding: 3px;
+  border: none;
+}
+
+section .card .container-network button:focus {
+  border: 2px solid #4438ca70;
+}
+
+section .card .container-network .fa-brands {
+  font-size: 20px;
+  color: #4338CA;
+  ;
+  cursor: pointer;
+}
